@@ -1,0 +1,87 @@
+{
+  "name": "Nitro",
+  "type": "ide",
+  "description": "Nitro is a cross-platform GraphQL IDE.",
+  "url": "https://chillicream.com/products/nitro",
+  "features": {
+    "graphql-response+json": {
+      "since": "-"
+    },
+    "one-of": {
+      "since": "(partial)",
+      "note": "Recognized when a schema is loaded via an SDL endpoint, but dropped on the introspection path"
+    },
+    "capabilities": {
+      "since": "-"
+    },
+    "deprecated-objects": {
+      "since": "(partial)",
+      "note": "Shown only when a schema is loaded via an SDL endpoint; not surfaced via introspection"
+    },
+    "directives-on-directives": {
+      "since": "-"
+    },
+    "executable-documents-descriptions": {
+      "since": ""
+    },
+    "fragment-arguments": {
+      "since": "-"
+    },
+    "on-error": {
+      "since": "-"
+    },
+    "semantic-introspection": {
+      "since": ""
+    },
+    "semantic-non-null": {
+      "since": "-"
+    },
+    "defer": {
+      "since": ""
+    },
+    "stream": {
+      "since": ""
+    },
+    "http-batching": {
+      "since": "(partial)",
+      "note": "Variable batching only (an array of variable sets); no operation-array batching"
+    },
+    "field-extensions": {
+      "since": "n/a"
+    },
+    "automatic-persisted-queries": {
+      "since": "-"
+    },
+    "deprecated-input-values": {
+      "since": ""
+    },
+    "directives-on-variable-definitions": {
+      "since": ""
+    },
+    "interfaces-on-interfaces": {
+      "since": ""
+    },
+    "mutations": {
+      "since": ""
+    },
+    "persisted-documents": {
+      "since": "-"
+    },
+    "queries": {
+      "since": ""
+    },
+    "repeatable-directives": {
+      "since": "(partial)",
+      "note": "Used for validation and completion, but the `repeatable` keyword is not shown in the schema viewer"
+    },
+    "specified-by": {
+      "since": ""
+    },
+    "subscriptions": {
+      "since": ""
+    },
+    "covariant-fields-merging": {
+      "since": "n/a"
+    }
+  }
+}

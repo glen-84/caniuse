@@ -1,8 +1,8 @@
 {
   "name": "Hot Chocolate",
   "type": "server",
-  "description": "Hot Chocolate is an open-source GraphQL Server for .NET",
-  "url": "https://github.com/ChilliCream/hotchocolate",
+  "description": "Hot Chocolate is an open-source GraphQL Server for .NET.",
+  "url": "https://github.com/ChilliCream/graphql-platform",
   "features": {
     "graphql-response+json": {
       "since": "13.0.0",
@@ -12,13 +12,13 @@
       "since": "13.0.0"
     },
     "capabilities": {
-      "since": "16.0.0"
+      "since": "-"
     },
     "deprecated-objects": {
       "since": "-"
     },
     "directives-on-directives": {
-      "since": "-"
+      "since": "16.2.0"
     },
     "executable-documents-descriptions": {
       "since": "16.0.0",
@@ -38,18 +38,19 @@
     },
     "defer": {
       "since": "16.0.0",
-      "note": "Hot Chocolate supports `@defer` using the `incremental v0.2` protocol since 16.0.0 and using the older protocol since 13.0.0 ([doc](https://chillicream.com/docs/hotchocolate/v16/server/http-transport#incremental-delivery-defer--stream))"
+      "note": "Hot Chocolate supports `@defer` using the `incremental v0.2` protocol since 16.0.0 and using the older protocol since 13.0.0 ([doc](https://chillicream.com/docs/hotchocolate/server/http-transport#incremental-delivery-defer-stream))"
     },
     "stream": {
       "since": "16.0.0",
-      "note": "Hot Chocolate supports `@stream` using the `incremental v0.2` protocol since 16.0.0 and using the older protocol since 13.0.0 ([doc](https://chillicream.com/docs/hotchocolate/v16/server/http-transport#incremental-delivery-defer--stream))"
+      "note": "Hot Chocolate supports `@stream` using the `incremental v0.2` protocol since 16.0.0 and using the older protocol since 13.0.0 ([doc](https://chillicream.com/docs/hotchocolate/server/http-transport#incremental-delivery-defer-stream))"
     },
     "http-batching": {
       "since": "16.0.0",
-      "note": "operation batching has been available since 13.0.0. Variable batching with 16.0.0 ([doc](https://chillicream.com/docs/hotchocolate/v16/server/batching/))"
+      "note": "operation batching has been available since 13.0.0. Variable batching with 16.0.0 ([doc](https://chillicream.com/docs/hotchocolate/server/batching))"
     },
     "field-extensions": {
-      "since": "?"
+      "since": "(partial)",
+      "note": "The execution runtime merges directives and arguments onto fields redeclared in a type extension, but without the RFC's consistency validation (mismatched type, description, or defaults are not enforced)."
     },
     "automatic-persisted-queries": {
       "since": "",

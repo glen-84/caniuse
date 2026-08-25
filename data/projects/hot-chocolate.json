@@ -15,7 +15,8 @@
       "since": "-"
     },
     "deprecated-objects": {
-      "since": "-"
+      "since": "16.6.1",
+      "note": "Opt-in via `EnableObjectDeprecation` ([pr](https://github.com/ChilliCream/graphql-platform/pull/10185))"
     },
     "directives-on-directives": {
       "since": "16.2.0"

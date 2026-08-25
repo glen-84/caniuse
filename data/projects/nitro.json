@@ -15,8 +15,7 @@
       "since": "-"
     },
     "deprecated-objects": {
-      "since": "(partial)",
-      "note": "Shown only when a schema is loaded via an SDL endpoint; not surfaced via introspection"
+      "since": ""
     },
     "directives-on-directives": {
       "since": "-"

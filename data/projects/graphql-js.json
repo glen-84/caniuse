@@ -8,6 +8,10 @@
       "since": "n/a",
       "note": "graphql-js is transport agnostic."
     },
+    "graphql-over-http": {
+      "since": "n/a",
+      "note": "graphql-js is transport agnostic."
+    },
     "one-of": {
       "since": "16.9.0"
     },
@@ -20,7 +24,7 @@
       "note": "[pr](https://github.com/graphql/graphql-js/pull/3818)"
     },
     "directives-on-directives": {
-      "since": "-",
+      "since": "16.14.0",
       "note": "[pr](https://github.com/graphql/graphql-js/pull/4521)"
     },
     "executable-documents-descriptions": {
@@ -97,6 +101,10 @@
     "covariant-fields-merging": {
       "since": "-",
       "note": ""
+    },
+    "empty-selection-sets": {
+      "since": "-",
+      "note": "[pr](https://github.com/graphql/graphql-js/pull/4852)"
     }
   }
 }

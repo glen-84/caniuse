@@ -1,0 +1,85 @@
+{
+  "name": "Fusion",
+  "type": "gateway",
+  "description": "Fusion is ChilliCream's GraphQL federation gateway for .NET, part of the GraphQL Platform",
+  "url": "https://github.com/ChilliCream/graphql-platform",
+  "features": {
+    "graphql-response+json": {
+      "since": ""
+    },
+    "one-of": {
+      "since": ""
+    },
+    "capabilities": {
+      "since": "-"
+    },
+    "deprecated-objects": {
+      "since": "16.6.1",
+      "note": "Opt-in via `EnableObjectDeprecation` ([pr](https://github.com/ChilliCream/graphql-platform/pull/10185))"
+    },
+    "directives-on-directives": {
+      "since": ""
+    },
+    "executable-documents-descriptions": {
+      "since": ""
+    },
+    "fragment-arguments": {
+      "since": "-"
+    },
+    "on-error": {
+      "since": ""
+    },
+    "semantic-introspection": {
+      "since": ""
+    },
+    "semantic-non-null": {
+      "since": "-"
+    },
+    "defer": {
+      "since": ""
+    },
+    "stream": {
+      "since": "-"
+    },
+    "http-batching": {
+      "since": ""
+    },
+    "field-extensions": {
+      "since": "16.0.0"
+    },
+    "automatic-persisted-queries": {
+      "since": ""
+    },
+    "deprecated-input-values": {
+      "since": ""
+    },
+    "directives-on-variable-definitions": {
+      "since": ""
+    },
+    "interfaces-on-interfaces": {
+      "since": ""
+    },
+    "mutations": {
+      "since": ""
+    },
+    "persisted-documents": {
+      "since": "(partial)",
+      "note": "The protocol for persisted documents is still TBD"
+    },
+    "queries": {
+      "since": ""
+    },
+    "repeatable-directives": {
+      "since": ""
+    },
+    "specified-by": {
+      "since": ""
+    },
+    "subscriptions": {
+      "since": ""
+    },
+    "covariant-fields-merging": {
+      "since": "-"
+    }
+  }
+}
